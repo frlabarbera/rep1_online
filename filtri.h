@@ -1,0 +1,23 @@
+
+#ifndef FILTRI_H
+#define FILTRI_H
+
+class filtro_generale {
+    protected:
+    int n;
+    public:
+    void show();
+    virtual void filtra(int val);
+};
+
+class filtro_A: public filtro_generale{
+    public:
+    void filtra(int val) override;
+};
+
+class filtro_B: public filtro_generale{
+    public:
+    void filtra(int val) override;
+};
+
+#endif
