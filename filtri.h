@@ -20,4 +20,9 @@ class filtro_B: public filtro_generale{
     void filtra(int val) override;
 };
 
+class filtro_C: public filtro_generale{
+    public:
+    void filtra(int) override;
+};
+
 #endif
