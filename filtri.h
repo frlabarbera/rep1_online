@@ -11,7 +11,8 @@ class filtro_generale {
     private:
     int l;
     int r;
-    int d;
+    int q;
+    char A;
     public:
     void show();
     virtual void filtra(int val);
