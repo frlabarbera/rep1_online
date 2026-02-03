@@ -7,7 +7,7 @@ class filtro_generale {
     int n;
     int p;
     int s;
-    int y;
+    int x;
     public:
     void show();
     virtual void filtra(int val);
