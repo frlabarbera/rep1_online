@@ -6,6 +6,7 @@ class filtro_generale {
     protected:
     int n;
     int p;
+    int s;
     public:
     void show();
     virtual void filtra(int val);
