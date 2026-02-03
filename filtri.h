@@ -8,6 +8,8 @@ class filtro_generale {
     int p;
     int s;
     int x = 20;
+    private:
+    int l;
     public:
     void show();
     virtual void filtra(int val);
