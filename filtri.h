@@ -10,6 +10,7 @@ class filtro_generale {
     int x = 20;
     private:
     int l;
+    int r;
     public:
     void show();
     virtual void filtra(int val);
