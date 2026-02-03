@@ -49,3 +49,5 @@ class filtro_F: public filtro_generale{
     void filtra(int) override;
 };
 #endif
+
+void func(int);
