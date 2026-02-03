@@ -5,6 +5,7 @@
 class filtro_generale {
     protected:
     int n;
+    int p;
     public:
     void show();
     virtual void filtra(int val);
