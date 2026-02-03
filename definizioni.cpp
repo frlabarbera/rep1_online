@@ -11,6 +11,10 @@ using namespace std;
  void filtro_B::filtra(int v){
     cout << v * 20;
  };
+
+ void filtro_C::filtra(int v){
+    cout << v * 30;
+ };
  
 int main (){
     
